@@ -1,4 +1,4 @@
-const CONTACT_EMAIL = "hello@brandsmith.co";
+const CONTACT_EMAIL = "agency.brandsmith@gmail.com";
 
 const form = document.querySelector("#enquiryForm");
 const note = document.querySelector("#formNote");
