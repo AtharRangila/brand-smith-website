@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brand Smith</title>
+    <meta
+      name="description"
+      content="Brand Smith creates sharp brand identities, design systems, and visual assets for businesses ready to look unmistakable."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand-link" href="#top" aria-label="Brand Smith home">
+        <img src="assets/logo.png" alt="Brand Smith" class="brand-logo">
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About Us</a>
+        <a href="#work">Our Work</a>
+        <a href="#contact">Contact Us</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-bg" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="hero-inner">
+          <img src="assets/logo.png" alt="Brand Smith" class="hero-logo">
+          <h1 id="hero-title">Forging brands with bite, clarity, and presence.</h1>
+          <p>
+            Strategy, identity, social-first design, and visual systems shaped
+            for companies that want to be remembered.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#contact">Start an enquiry</a>
+            <a class="button ghost" href="#work">View work</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about" aria-labelledby="about-title">
+        <div class="section-kicker">About Us</div>
+        <div class="about-grid">
+          <h2 id="about-title">A design studio for brands that need a sharper edge.</h2>
+          <p>
+            Brand Smith builds visual identities that feel deliberate from the
+            first glance. We bring together naming, logo systems, brand
+            collateral, campaign visuals, and digital design to help businesses
+            show up with confidence. Our work is clean, high-contrast, and
+            commercially focused: made to stand out on a screen, a signboard, a
+            pitch deck, and the feed.
+          </p>
+        </div>
+      </section>
+
+      <section class="section work-section" id="work" aria-labelledby="work-title">
+        <div class="section-heading">
+          <div>
+            <div class="section-kicker">Our Work</div>
+            <h2 id="work-title">Identity, collateral, and campaign visuals in motion.</h2>
+          </div>
+          <p>
+            A revolving panorama of Brand Smith assets and presentation-ready
+            visual directions.
+          </p>
+        </div>
+
+        <div class="panorama" aria-label="Brand Smith work image loop">
+          <div class="panorama-track">
+            <figure class="work-card"><img src="assets/vcard-front.png" alt="Brand Smith business card front"></figure>
+            <figure class="work-card"><img src="assets/work-brand-kit.svg" alt="Brand kit visual"></figure>
+            <figure class="work-card"><img src="assets/emblem.png" alt="Brand Smith emblem"></figure>
+            <figure class="work-card"><img src="assets/work-social-grid.svg" alt="Social media campaign grid"></figure>
+            <figure class="work-card"><img src="assets/vcard-back.png" alt="Brand Smith business card back"></figure>
+            <figure class="work-card"><img src="assets/work-packaging.svg" alt="Packaging concept visual"></figure>
+            <figure class="work-card"><img src="assets/submark.png" alt="Brand Smith submark"></figure>
+            <figure class="work-card"><img src="assets/work-signage.svg" alt="Signage concept visual"></figure>
+            <figure class="work-card"><img src="assets/insta-logo-circle.png" alt="Brand Smith circular social logo"></figure>
+            <figure class="work-card"><img src="assets/logo.png" alt="Brand Smith main logo"></figure>
+
+            <figure class="work-card" aria-hidden="true"><img src="assets/vcard-front.png" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/work-brand-kit.svg" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/emblem.png" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/work-social-grid.svg" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/vcard-back.png" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/work-packaging.svg" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/submark.png" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/work-signage.svg" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/insta-logo-circle.png" alt=""></figure>
+            <figure class="work-card" aria-hidden="true"><img src="assets/logo.png" alt=""></figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+        <div class="contact-copy">
+          <div class="section-kicker">Contact Us</div>
+          <h2 id="contact-title">Tell us what you want to build.</h2>
+          <p>
+            Send a quick enquiry and the message will open in your email app,
+            already addressed and formatted for Brand Smith.
+          </p>
+        </div>
+
+        <form class="contact-form" id="enquiryForm">
+          <label>
+            <span>Name</span>
+            <input type="text" name="name" autocomplete="name" required>
+          </label>
+          <label>
+            <span>Phone Number</span>
+            <input type="tel" name="phone" autocomplete="tel" required>
+          </label>
+          <label>
+            <span>Company Name</span>
+            <input type="text" name="company" autocomplete="organization">
+          </label>
+          <label>
+            <span>Email</span>
+            <input type="email" name="email" autocomplete="email" required>
+          </label>
+          <button class="button primary form-button" type="submit">Send Enquiry</button>
+          <p class="form-note" id="formNote" role="status"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <img src="assets/emblem.png" alt="" aria-hidden="true">
+      <span>Brand Smith</span>
+      <a href="mailto:hello@brandsmith.co">hello@brandsmith.co</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
