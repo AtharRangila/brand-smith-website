@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title">
+  <title id="title">Brand kit visual</title>
+  <rect width="960" height="600" fill="#050505"/>
+  <rect x="54" y="54" width="852" height="492" rx="8" fill="#0d0d0d" stroke="#caff18" stroke-opacity=".45"/>
+  <circle cx="778" cy="126" r="34" fill="#caff18"/>
+  <rect x="100" y="118" width="356" height="56" fill="#f7f7f1"/>
+  <rect x="100" y="206" width="248" height="22" fill="#caff18"/>
+  <rect x="100" y="260" width="760" height="1" fill="#f7f7f1" opacity=".18"/>
+  <rect x="100" y="320" width="138" height="138" rx="8" fill="#f7f7f1"/>
+  <rect x="276" y="320" width="138" height="138" rx="8" fill="#caff18"/>
+  <rect x="452" y="320" width="138" height="138" rx="8" fill="#46f0ff"/>
+  <rect x="628" y="320" width="232" height="138" rx="8" fill="#141414" stroke="#f7f7f1" stroke-opacity=".2"/>
+  <text x="100" y="516" fill="#f7f7f1" font-family="Arial Black, Arial, sans-serif" font-size="34">BRAND SYSTEM</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title">
+  <title id="title">Packaging concept visual</title>
+  <rect width="960" height="600" fill="#050505"/>
+  <path d="M252 154h318l132 92v274H384L252 428z" fill="#121212" stroke="#f7f7f1" stroke-opacity=".22"/>
+  <path d="M384 246h318v274H384z" fill="#171717"/>
+  <path d="M252 154l132 92v274l-132-92z" fill="#0c0c0c"/>
+  <path d="M252 154h318l132 92H384z" fill="#caff18"/>
+  <circle cx="540" cy="370" r="64" fill="#caff18"/>
+  <rect x="444" y="464" width="194" height="20" fill="#f7f7f1"/>
+  <text x="444" y="330" fill="#f7f7f1" font-family="Arial Black, Arial, sans-serif" font-size="42">BOX</text>
+  <circle cx="760" cy="124" r="14" fill="#46f0ff"/>
+</svg>
